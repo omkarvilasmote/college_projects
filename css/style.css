@@ -1,0 +1,342 @@
+*{
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 0;
+
+}
+.logo{
+    position: fixed;
+    width: 100%;
+    height: auto;
+    margin: none;
+    background-color: DodgerBlue;
+    align-items: center;
+    text-align: center;
+}
+.bar-titel{
+    padding-top: 5px;
+    color: white;
+}
+.logo i{
+    margin: 20px;
+    font-size: 25px;
+}
+.yt{
+    color: red;
+}
+.insta{
+    color: pink;
+
+}
+.twi{
+    color: white;
+
+}
+.tele{
+    color: whitesmoke;
+}
+
+/* titel */
+.about-me{
+    width: 100%;
+    height: 400px;
+    background-color: white;
+    /* background-image: url(/img/star.gif); */
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.imagemy{
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    background-image: url(/img/svp.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    background-repeat: no-repeat;
+}
+.meab{
+    background-color: black;
+    
+    width: 100%;
+    color: white;
+    
+}
+.gifdesing{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    float: left;
+    margin: 15px;
+    background-position: -40px;
+    background-image: url(/img/webdesing.gif);
+    background-size: cover;
+}
+.meab h2{
+    padding: 20px;
+    background-color: white;
+    color: black;
+}
+.meab p{
+    padding: 10px;
+  margin: 10px;  
+  font-size: medium;
+  color: white;
+  font-size: large;
+  
+}
+.meab h3{
+    text-align: center;
+    padding: 10px;
+    background-color: white;
+    color: red;
+    border: solid 2px;
+    
+}
+.meab a{
+    text-decoration: none;
+}
+/* my img */
+.imgmeandaboutme{
+    width: 100%;
+    background-image: url(/img/gif.gif);
+    color: white;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.imgmeandaboutme img{
+    width: 200px;
+    height: 200px;
+    margin: 30px;
+}
+
+/* my deattils */
+.aboutmedettails{
+    width: 100%;
+    background-color: white;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.aboutmeinul{
+    padding: 25px;
+    color: white;
+    width: 90%;
+    text-align: center;
+    background-color: black;
+    
+}
+.aboutmeinul span{
+    color: yellow;
+}
+.aboutmeinul li{
+    margin: 10px;
+}
+/* college info */
+.collegeinfo{
+    width: 100%;
+    color: black;
+}
+.collegeinf{
+width: 100%;
+}
+
+.collegeinfotil{
+    background-color: pink;
+    text-align: center;
+    color: black;
+    padding: 10px;
+}
+
+
+.clgone{
+    background-size: cover;
+    background-image: url(/img/cmd.jpg);
+width: 300px;
+height: 300px;
+margin: 10px;
+background-color: black;
+float: left;
+}
+.collegeinf p{
+    margin: 30px;
+}
+/* college img */
+.imgcollege{
+    width: 100%;
+    background-color: pink;
+}
+.imgcollege h2{
+    padding: 50px;
+}
+.imgclg{
+    width: 150px;
+    height: 150px;
+    background: black;
+    float: left;
+    margin: 17px;
+}
+.clgtiltbba{
+width: 150px;
+height: 100px;
+text-align: center;
+color: white;
+justify-content: center;
+display: flex;
+align-items: center;
+}
+.clgbutton{
+    width: 150px;
+    height: 50px; 
+    justify-content: center;
+display: flex;
+align-items: center;
+}
+.clgbutton button{
+    padding: 8px;
+    background-color: red;
+    color: white;
+    font-size: 12px;
+    cursor: pointer;
+}
+.imgclgone{
+    width: 150px;
+    height: 150px;
+    background: black;
+
+    float: left;
+    margin: 17px;
+}
+.imgclgtwo{
+    width: 150px;
+    background: black;
+    height: 150px;
+    float: left;
+    margin: 17px;
+}
+.imgclgthree{
+    width: 150px;
+    background: black;
+    height: 150px;
+    float: left;
+    margin: 17px;
+}
+
+
+/* more */
+.bigdivision{
+    width: 100%;
+    height: 150px;
+    
+}
+.onedivision{
+    width: 90%;
+    height: 40px;
+    background-color: black;
+    float: right;
+}
+.twodivision{
+    width: 70%;
+    height: 40px;
+    background-color: black;
+    float: right;
+}
+.threedivision{
+    width: 50%;
+    height: 40px;
+    background-color: black;
+    float: right;
+}
+
+/* contact me form */
+.contactmeus{
+    width: 100%;
+    height: 600px;
+    justify-content: center;
+display: flex;
+align-items: center;
+}
+.formcontact{
+    width: 90%;
+    height: 550px;
+    background-color: black;
+    justify-content: center;
+display: flex;
+align-items: center;
+}
+.formcontact h3{
+    margin: 20px;
+    color: white;
+    text-align: center;
+}
+
+form{
+    display: flex;
+    width: 70%;
+    height: 500px;
+    flex-direction: column;
+}
+form input{
+    font-size: large;
+    margin: 10px;
+    padding: 10px;
+}
+form select{
+    padding: 10px;
+    margin: 10px;
+}
+.bigtext{
+    padding: 10px 10px 50px;
+}
+form button{
+    width: 100px;
+    padding: 15px;
+    margin: 10px;
+    color: black;
+    cursor: pointer;
+    font-size: 15px;
+    background-color: rgb(209, 122, 231);
+}
+/* footer */
+.footer{
+    width: 100%;
+    height: 300px;
+    background-color: black;
+    color: white;
+}
+.footerone{
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+.footerone h3{
+    margin: 10px;
+}
+.footerone li{
+    margin: 10px;
+
+}
+.footerone li button{
+    padding: 10px;
+    cursor: pointer;
+    background-color: red;
+    color: white;
+    font-size: 15px;
+}
+.footertwo{
+    width: 50%;
+    float: left;
+    text-align: center;
+    
+}
+.footertwo i{
+    font-size: 100px;
+    color: yellow;
+}
+.footertwo p{
+    margin: 10px;
+}
